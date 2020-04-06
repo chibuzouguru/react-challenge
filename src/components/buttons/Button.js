@@ -10,7 +10,7 @@ export const Button = React.memo(({ children, margin, width, left_icon, right_ic
     disabled={disabled}
     style={{ width, margin }}
     onClick={onClick}
-    type="submit"
+    type="button"
   >
     {left_icon && <FontAwesomeIcon className={cn.leftIcon} icon={left_icon} />}
     {children}

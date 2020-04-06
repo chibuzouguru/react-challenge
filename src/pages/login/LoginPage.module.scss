@@ -1,0 +1,51 @@
+$primary_font_color:#fff;
+$primary_color: #e03ca3;
+$secondary_font_color:#fff;
+$secondary_color: orange;
+$border_radius: 3px;
+$font_size: 13px;
+$box_shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+$primary_grey: #b7b7b7;
+$font_error_color: #ff0000;
+
+.loginpage {
+	border: 1px solid $primary_grey;
+	padding: 25px 30px;
+	box-shadow: $box_shadow;
+	max-width: 750px;
+	.header {
+		text-align: center;
+	}
+	h3 {
+		font-weight: lighter;
+		margin-bottom: 30px;
+		font-size: 1.3rem;
+	}
+	.login_and_terms {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding-top: 20px;
+	}
+	.login_form,
+	.cognitiv_terms {
+		flex-grow: 1;
+		flex-basis: 0;
+	}
+	.cognitiv_terms {
+		.reset_password {
+			cursor: pointer;
+			color: $primary_color;
+			margin-top: 55px;
+		}
+	}
+	.verticalDivider {
+		border-left: 1px solid $primary_grey;
+		margin: 0 30px;
+  		height: 178px
+	}
+	.form_error {
+		color: $font_error_color;
+		font-size: 0.8rem;
+	}
+}

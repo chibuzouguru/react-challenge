@@ -1,0 +1,24 @@
+@import "~react-vis/dist/style";
+$primary_font_color:#fff;
+$primary_color: #e03ca3;
+$secondary_font_color:#fff;
+$secondary_color: orange;
+$border_radius: 3px;
+$font_size: 13px;
+$box_shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+$primary_grey: #b7b7b7;
+
+.dashboard {
+	width: 100%;
+	margin: 0 auto;
+	.navigation {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		padding: 30px;
+	}
+	main {
+		background-color: $primary_color;
+		height: 100vh;
+	}
+}
