@@ -1,4 +1,3 @@
-@import "~react-vis/dist/style";
 $primary_font_color:#fff;
 $primary_color: #e03ca3;
 $secondary_font_color:#fff;
@@ -15,10 +14,18 @@ $primary_grey: #b7b7b7;
 		display: flex;
 		align-items: flex-start;
 		justify-content: space-between;
-		padding: 30px;
+		padding: 30px 50px;
+		border-bottom: 1px solid $primary_grey;
+		box-shadow: $box_shadow;
 	}
 	main {
-		background-color: $primary_color;
 		height: 100vh;
+		h2 {
+			padding: 30px 50px;
+			font-size: 1.5 * $font_size;
+		}
+		.graph_section {
+			display: flex;
+		}
 	}
 }

@@ -1,0 +1,16 @@
+$primary_font_color:#fff;
+$primary_color: #e03ca3;
+$secondary_font_color:#fff;
+$secondary_color: orange;
+$border_radius: 3px;
+$font_size: 13px;
+$box_shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+$primary_grey: #b7b7b7;
+
+.paper_component {
+    border: 1px solid $primary_grey;
+    box-shadow: $box_shadow;
+    width: 90%;
+    margin: 0 10%;
+    
+}
