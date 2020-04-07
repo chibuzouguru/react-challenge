@@ -14,7 +14,7 @@ class ConnectedPrivateRoute extends PureComponent {
 
   render() {
     const { component: Component, user, location, ...rest } = this.props;
-    if (true) {
+    if (user && user.authenticated) {
       return (
         <Route
           key={location.pathname}
